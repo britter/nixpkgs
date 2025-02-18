@@ -130,8 +130,8 @@ stdenv.mkDerivation rec {
   gradleUpdateScript = ''
     runHook preBuild
 
-    gradle application:nixDownloadDeps -Dos.family=linux -Dos.arch=amd64
-    gradle application:nixDownloadDeps -Dos.family=linux -Dos.arch=aarch64
+    gradle --write-verification-metadata sha256 -Dos.family=linux -Dos.arch=amd64
+    gradle --write-verification-metadata sha256 -Dos.family=linux -Dos.arch=aarch64
   '';
 
   passthru.updateScript = writeScript "update-ed-odyssey-materials-helper" ''

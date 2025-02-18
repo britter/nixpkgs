@@ -42,9 +42,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
   # would try to download Amazon Corretto
   gradleBuildTask = ":smithy-cli:shadowJar";
 
-  # Fetch both compile and test dependencies during update
-  gradleUpdateTask = ":smithy-cli:shadowJar :smithy-cli:test";
-
   doCheck = true;
   gradleCheckTask = ":smithy-cli:test";
 

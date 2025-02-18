@@ -107,11 +107,6 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     runHook postInstallCheck
   '';
 
-  # Fix lockfile updater by excluding subprojects that lack (and don't need) nixDownloadDeps
-  preGradleUpdate = ''
-    gradleFlagsArray+=('-x:plantuml-natif:nixDownloadDeps' '-x:plantuml-mcp-js:nixDownloadDeps')
-  '';
-
   passthru = {
     updateScript = nix-update-script { };
   };

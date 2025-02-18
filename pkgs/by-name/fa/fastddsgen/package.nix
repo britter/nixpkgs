@@ -59,7 +59,7 @@ stdenv.mkDerivation (finalAttrs: {
     cd thirdparty/idl-parser
     # fix "Task 'submodulesUpdate' not found"
     gradleFlags=
-    gradle nixDownloadDeps
+    gradle --write-verification-metadata sha256
   '';
 
   passthru.tests = testers.testVersion {
