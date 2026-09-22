@@ -1,28 +1,6 @@
 {
  "!comment": "This is a nixpkgs Gradle dependency lockfile. For more details, refer to the Gradle section in the nixpkgs manual.",
  "!version": 1,
- "https://oss.sonatype.org/content/repositories/snapshots/com/badlogicgames": {
-  "gdx-controllers#gdx-controllers-core/2.2.4-20231021.200112-6/SNAPSHOT": {
-   "jar": "sha256-Gdz2J1IvDJFktUD2XeGNS0SIrOyym19X/+dCbbbe3/U=",
-   "pom": "sha256-90QW/Mtz1jbDUhKjdJ88ekhulZR2a7eCaEJoswmeny4="
-  },
-  "gdx-controllers#gdx-controllers-desktop/2.2.4-20231021.200114-6/SNAPSHOT": {
-   "jar": "sha256-4mhLijZwQHk2pP5qXIIzrsO9CwNC3CDti/5szclkVa8=",
-   "pom": "sha256-10+zD8flpKIPzji5NFgtYcwE5O74hSzzvvqBh84wLf4="
-  },
-  "gdx-controllers/gdx-controllers-core/2.2.4-SNAPSHOT/maven-metadata": {
-   "xml": {
-    "groupId": "com.badlogicgames.gdx-controllers",
-    "lastUpdated": "20231021200112"
-   }
-  },
-  "gdx-controllers/gdx-controllers-desktop/2.2.4-SNAPSHOT/maven-metadata": {
-   "xml": {
-    "groupId": "com.badlogicgames.gdx-controllers",
-    "lastUpdated": "20231021200114"
-   }
-  }
- },
  "https://repo.maven.apache.org/maven2": {
   "com/badlogicgames/gdx#gdx-backend-lwjgl3/1.12.1": {
    "jar": "sha256-B3OwjHfBoHcJPFlyy4u2WJuRe4ZF/+tKh7gKsDg41o0=",
@@ -55,11 +33,6 @@
    "jar": "sha256-jTIJ6UghH96c2swrAfrO0yPlSKpS73jlx2CEWoh0aXA=",
    "module": "sha256-7Th6fCSDcEBGAyOsXYZIZwKAPw88K1h448x4If03n6o=",
    "pom": "sha256-Qg9vfLMYtQsglKsHYme67w6bBlI0yHqWCqkvtCEYpZY="
-  },
-  "com/badlogicgames/jamepad#jamepad/2.26.5.0": {
-   "jar": "sha256-sO+RC6Uxyt/gQYSWow2Hy6xGAhsGJUf1tZR+A1Q1cRo=",
-   "module": "sha256-KGmFPVwJdU2vuY9u6veZLc2Q6K3uFxL/bgjmUgBKflA=",
-   "pom": "sha256-Up7mQ8lbw+6SfuSnRqwFaOQSnbb5dscD82IjN9/6Inc="
   },
   "com/badlogicgames/jlayer#jlayer/1.0.1-gdx": {
    "jar": "sha256-qrze3C4/pBxOE4hwUj10MzfxiZMQgGMLoaIoVTjNAPs=",
