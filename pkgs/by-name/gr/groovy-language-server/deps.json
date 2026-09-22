@@ -193,8 +193,8 @@
   "com/google/code/gson/gson/maven-metadata": {
    "xml": {
     "groupId": "com.google.code.gson",
-    "lastUpdated": "20250910210152",
-    "release": "2.13.2"
+    "lastUpdated": "20260423191314",
+    "release": "2.14.0"
    }
   },
   "com/google/errorprone#error_prone_annotations/2.38.0": {
