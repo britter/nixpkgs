@@ -3,8 +3,8 @@
  "!version": 1,
  "https://jitpack.io": {
   "com/github/bailuk#java-gtk/0.5.0": {
-   "jar": "sha256-fCXY4gCLzBU7D+RFsLGz3NN47176XCtak+z65vURKl8=",
-   "module": "sha256-7mj8zV9UNi61F1iEA809wldidgJQKETrS/FYk4hYbCQ=",
+   "jar": "sha256-wik4XXiLIXGNfJ4L/VD/5FOtf5Pli9WO14ro35d7u+E=",
+   "module": "sha256-/EDwOSfH7gS5lw1nTiytVLvQtML9H8RpAjDxPeBNZYM=",
    "pom": "sha256-lARyD2FpDWBPqPMJ+0npOLh4VMP0P9/aK0QasHJYimU="
   }
  },
@@ -386,9 +386,6 @@
    "jar": "sha256-ZzHCVkuXOXGDWCVJAUC3rZ63Jtk4/gzvTr7y7Fkt6wM=",
    "pom": "sha256-rVSg2nLxASl08e7sdp2EopMnzzfMrVUxt4cT/GD0tnY="
   },
-  "org/jetbrains/kotlin#kotlin-native-prebuilt/2.0.20": {
-   "pom": "sha256-xYoRfPul4AVC+QrYLytqsh4Z46Ifzvy0mLq5k69FDwY="
-  },
   "org/jetbrains/kotlin#kotlin-reflect/1.6.10": {
    "jar": "sha256-MnesECrheq0QpVq+x1/1aWyNEJeQOWQ0tJbnUIeFQgM=",
    "pom": "sha256-V5BVJCdKAK4CiqzMJyg/a8WSWpNKBGwcxdBsjuTW1ak="
@@ -420,9 +417,6 @@
   },
   "org/jetbrains/kotlin#kotlin-stdlib/2.0.20/all": {
    "jar": "sha256-UP+t6yC00kVqUmWVpPep6FiJaCcVBz5s26Gx2A461Fg="
-  },
-  "org/jetbrains/kotlin/kotlin-native-prebuilt/2.0.20/kotlin-native-prebuilt-2.0.20-linux-x86_64": {
-   "tar.gz": "sha256-soKRi19RWLL41bU94ICTpyIG/CO5E4Lh3dJjDHIChCc="
   },
   "org/jetbrains/kotlinx#kotlinx-coroutines-bom/1.6.4": {
    "pom": "sha256-qyYUhV+6ZqqKQlFNvj1aiEMV/+HtY/WTLnEKgAYkXOE="
